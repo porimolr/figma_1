@@ -1,0 +1,100 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .logo img {
+        width: 50%;
+    }
+    .nav ul li a {
+        font-size: 12px;
+    }
+    .vector img {
+        display: none;
+    }
+    .height h5 {
+        margin: 0;
+        /* margin-top: 72px;
+        margin-left: 0px  */
+    }
+    .img_one img {
+        display: none;
+    }
+    .text p {
+        text-align: center;
+        margin-top: -118px;
+    }
+    .text h4 {
+        font-size: 24px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .text h4 span {
+        font-size: 24px;
+    }
+    .elip img {
+        top: -62px;
+        left: 42%;
+        width: 29%;
+    }
+    .text h6 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .banner_text h3 {
+        font-size: 22px;
+        letter-spacing: 0;
+        margin:0;
+        margin-top: -132px;
+    }
+    .banner_text p {
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 0;
+        margin: 43px 0px 38px 0;
+    }
+    .h_text h3 {
+        font-size: 20px;
+    }
+    .card_item {
+        width: 100%;
+    }
+    .c_text {
+        top: 48%;
+    }
+    .c_text h5 {
+        font-size: 12px;
+    }
+    .c_text p {
+        font-size: 10px;
+        margin: 0;
+    }
+    .c_text a {
+        font-size: 8px;
+        padding: 4px 6px;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+}

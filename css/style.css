@@ -1,0 +1,279 @@
+
+/*=== global ===*/
+:root{
+    --header:#1A0B2E;
+    --pt: "PT Sans", sans-serif;
+    --h2:#010101;
+    --h3:#313841;
+    --h2-font:32px;
+    --menu:22px;
+    --400:400;
+    --500:500;
+    --700:700;
+
+}
+/*=== global ===*/
+body{
+    font-family: var(--pt);
+    background-color: #11071f;
+
+}
+/*== header on ==*/
+header{
+    background-color: var(--header);
+    padding: 2px 0;
+}
+/*== menu on==*/
+.nav{
+
+}
+.nav ul li a{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #ffffff;
+
+    
+}
+.nav ul li {
+    margin-left: 60px;
+
+    
+}
+.nav ul li a:hover{
+    color: #ffffff;   
+}
+/*== menu off ==*/
+.logo{
+
+}
+.logo img{
+
+}
+/*=== header off ===*/
+/* benner on */
+.banner{
+    min-height: 100vh;
+}
+.height{
+    min-height: 85vh;
+    align-items: center;
+}
+.height h5{
+    position: relative;
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 136px;
+    margin-left: -136px;
+
+}
+.height h5 span{ 
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #7127BA;
+
+}
+.vector img{
+    position: absolute;
+    margin-top: -1%;
+    left: 21%;
+    width: 9%;
+
+
+}
+.banner_part{
+
+}
+.banner_part img{
+
+}
+.item{
+
+}
+.img_one{
+    position: relative;
+    z-index: 2;
+
+}
+.img_one img{
+    margin-top: 49px;
+
+}
+.c_s{
+    position: absolute;
+    top: -38%;
+    left: -64px;
+    z-index: -1;
+    width: 500px;
+
+}
+.c_s img{
+    width: 78%;
+
+}
+.text{
+    position: absolute;
+    top: 57%;
+    margin-left: -3%;
+
+}
+.text p{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+
+}
+.text h4{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    width: 60%;
+
+}
+.text h4 span{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #7127BA;
+
+}
+.text h6{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+
+}
+.elip img{
+    position: relative;
+    top: -92px;
+    left: 20%;
+}
+.banner_text{
+
+}
+.banner_text h3{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 90px 0 0;
+
+}
+.banner_text h4{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 4px 0;
+
+}
+.banner_text img{
+    width: 21px;
+}
+.banner_text h5 span{
+    color: #1877F2;
+
+
+}
+.banner_text p{
+    width: 84%;
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 80px 0px 120px 0;
+
+}
+.banner_text a{
+    text-decoration: none;
+  
+
+}
+/* card */
+.card{
+    background-color: #11071f;
+}
+.card h3{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.card_one{
+    position: relative;
+    
+
+
+}
+.card_item{
+    width: 600px;
+
+
+
+}
+.card_item img{
+    height: 100%;
+    width: 100%;
+
+}
+.c_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-24%, -50%);
+   
+
+}
+.c_text h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.c_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+.c_text a{
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2C1250;
+    border: 1px solid #693B93;
+    border-radius: 5px;
+    padding: 8px 24px;
+
+}
+.h_text{
+
+}
+.h_text h3{
+    font-family: "Preahvihear", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 2px;
+
+}
+.overly{
+    position: absolute;
+}
+/* banner off */
